@@ -49,8 +49,8 @@ if(fuser==null)fuser=new UserInfo("","","","","","");
 		document.add_cart_form.method = 'POST';
 		document.add_cart_form.submit();
 	}
-}
-	}
+
+
 </script>
 </head>
 <body bgcolor=#FFFFFF text=#000000 leftmargin=0 topmargin=0
@@ -106,7 +106,7 @@ if(fuser==null)fuser=new UserInfo("","","","","","");
 							<table border="0" cellpadding="0" cellspacing="1">
 								<tr>
 									<td align=center>
-									<input type="button" value="로그인"	onClick="login();"> &nbsp; 
+									<input type="button" value="로그인"	onClick="login()"> &nbsp; 
 									<input type="button" value="회원가입" onClick="userCreateForm()"></td>
 								</tr>
 							</table></td>
